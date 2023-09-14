@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+.navheader{
+    margin: 10px;
+    background-color: aquamarine;
+    text-decoration: none;
+    color: black;
+    border-color: yellowgreen;
+    border: 1px solid blue;
+    padding: 10px;
+    border-style: double;
+    box-sizing: border-box 62px;
+
+}
+header{
+    background-color: red;
+}
+#card{
+    border: 1px solid black;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+}
+#card img {
+    width: 100%;
+}
+*{
+  box-sizing: border-box; 
+}
+#tel{
+    width: 10px;
+}
+#tele{
+    position: fixed;
+}
+a:link {color: red;}
+a:hover {background-color: yellow;}
+a:visited {color: blue;}
+a:active {background-color: green; color: white;}
+
+p::selection{
+    background-color: lightsalmon;
+    }
